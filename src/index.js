@@ -2,13 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import Router from './router';
-import "./assets/base.css";
+import "./assets/base.less";
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
     <Router />
-  </React.StrictMode>,
+  ,
   document.getElementById('root')
 );
 
